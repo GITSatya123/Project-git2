@@ -1,0 +1,13 @@
+mvn archetype:generate
+Define value for property 'groupId': sit
+Define value for property 'artifactId': MathProj1
+Define value for property 'version' 1.0-SNAPSHOT: : 1.0
+Define value for property 'package' sit: : com.st.source
+Confirm properties configuration:
+groupId: sit
+E:\Tools\MavenTool\mevenapp\Ex1>cd MathProj1
+
+E:\Tools\MavenTool\mevenapp\Ex1\MathProj1>mvn package
+E:\Tools\MavenTool\mevenapp\Ex1\MathProj1>java -cp target/MathProj1-1.0.jar com.st.source.Arithmetic
+
+mvn archetype:generate -DgroupId=sit -DartifactId=Mathproj2 -DarchetypeArtifactId-maven-archetype-quickstart -Dversion=1.0 -Dpackage=com.st.source -DinteractiveMode=false

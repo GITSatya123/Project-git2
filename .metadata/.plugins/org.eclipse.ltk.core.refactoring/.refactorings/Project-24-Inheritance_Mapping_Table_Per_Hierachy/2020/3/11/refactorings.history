@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.tph.helper.SessionFactory&apos; to &apos;SessionFactoryRegistry&apos;&#x0D;&#x0A;- Original project: &apos;Project-24-Inheritance_Mapping_Table_Per_Hierachy&apos;&#x0D;&#x0A;- Original element: &apos;com.tph.helper.SessionFactory&apos;&#x0D;&#x0A;- Renamed element: &apos;com.tph.helper.SessionFactoryRegistry&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SessionFactory&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.tph.helper{SessionFactory.java[SessionFactory" matchStrategy="1" name="SessionFactoryRegistry" qualified="false" references="true" similarDeclarations="false" stamp="1584210557336" textual="false" version="1.0"/>
+</session>

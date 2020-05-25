@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 31 Jan, 2020 12:19:02 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.msf.entities.Staff" table="STAFF">
+        <id name="staff_no" type="int">
+            <column name="staffno" />
+            <generator class="assigned" />
+        </id>
+        <property name="staff_first_name">
+            <column name="firstname" />
+        </property>
+        <property name="staff_last_name" >
+            <column name="lastname" />
+        </property>
+        <property name="designation" >
+        </property>
+        <property name="mob_no" >
+            <column name="mobno" />
+        </property>
+        <property name="email_address" >
+            <column name="emailaddress" />
+        </property>
+        <property name="role_no" >
+            <column name="rollno" />
+        </property>
+    </class>
+</hibernate-mapping>

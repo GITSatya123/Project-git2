@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 14 Mar, 2020 11:22:58 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping package="com.tph.entities">
+    <subclass name="DigitalPayment" extends="Payment" discriminator-value="digital">
+          <property name="partnerName" type="java.lang.String">
+            <column name="partner_Name" />
+            </property>
+            <property name="credidateDate">
+            <column name="credidate_date"/>
+        </property>
+         <property name="txNo" type="java.lang.String">
+            <column name="tx_No" />
+        </property>
+         <property name="remarks" />
+        
+    </subclass>
+</hibernate-mapping>

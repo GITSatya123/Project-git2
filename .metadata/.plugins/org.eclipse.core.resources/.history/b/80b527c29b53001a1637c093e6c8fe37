@@ -1,0 +1,47 @@
+package com.gvl.test;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+
+import com.gvl.entities.Person;
+import com.gvl.helper.SessionFactoryRegistry;
+
+public class GVLTest {
+
+	public static void main(String[] args) {
+		Person person=new Person();
+		Session session=null;
+		SessionFactory sessionFactory=null;
+		Transaction transaction=null;
+		boolean flag=false;
+		try {
+		
+		
+		sessionFactory=SessionFactoryRegistry.getSessionfactory();
+		session= sessionFactory.openSession();
+		transaction=session.beginTransaction();
+		flag=true;
+		}catch(Exception e){
+			e.printStackTrace();
+			if(transaction!=null) {
+				if(flag) {
+					transaction.commit();
+				}else {
+					transaction.rollback();
+				}
+			}
+		}
+	}
+	
+	public static void sorePerson(Session session) {
+		Person person=new Person();
+		person.setPid(121);
+		person.setPname("satya");
+		person.setGender("male");
+		person.setAge(25);
+		person.setMobileno("3445667");
+		person.setEmailaddress("satya,gmail.com");
+		session.save(person);
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;BootStrap4_application&apos; to &apos;Project-4-BootStrap4_application&apos;" description="Rename resource &apos;BootStrap4_application&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/BootStrap4_application" name="Project-4-BootStrap4_application" stamp="1581195850098" updateReferences="true"/>
+</session>

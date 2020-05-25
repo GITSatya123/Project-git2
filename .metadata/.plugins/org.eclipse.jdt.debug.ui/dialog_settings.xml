@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Project-1-Hibernate1stApplication/src&amp;lt;com.store.test{StoreTest.java[StoreTest&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Project-2-Managing_SessionFactory_Application/src&amp;lt;com.msf.test{MSFTest.java[MSFTest&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Project-3-TransactionSessionFactory/src&amp;lt;com.tsf.test{Test.java[Test&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Project-4-BootStrap4_application/src&amp;lt;com.bs4.test{BootStrapTest.java[BootStrapTest&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Project-6-BootStrap-5_Usecase/src&amp;lt;com.bsf.test{H5Test.java[H5Test&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Project-5-CustomBootStrap4_application/src&amp;lt;com.cbs4.test{Test.java[Test&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Project-12-Hibernate_Using_Annotation/src&amp;lt;com.annotation.test{Test.java[Test&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Project-15-JPA_WithoutUsing_Annotation/src&amp;lt;com.jpa.test{JPATest.java[JPATest&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Project-16-1st_LevelCache/src&amp;lt;com.cache.test{Test.java[Test&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Project-17-IDGenerator_Application/src&amp;lt;com.idg.test{IDGTest.java[IDGTest&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Project-18-IDGenerator_Using_Hilo/src&amp;lt;com.idg.test{IDGTest.java[IDGTest&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Project-10-GetvsLoad_Usecase2/src&amp;lt;com.gvl.test{GVLTest.java[GVLTest&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="538"/>
+			<item key="DIALOG_Y_ORIGIN" value="71"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+</section>

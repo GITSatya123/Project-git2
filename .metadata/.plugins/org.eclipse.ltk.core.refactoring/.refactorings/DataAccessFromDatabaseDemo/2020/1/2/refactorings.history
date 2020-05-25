@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DataAccessFromDatabaseDemo/src/com/da/util/generic.properties&apos; to &apos;store.properties&apos;" description="Rename resource &apos;generic.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/da/util/generic.properties" name="store.properties" stamp="1578554483046" updateReferences="true"/>
+</session>

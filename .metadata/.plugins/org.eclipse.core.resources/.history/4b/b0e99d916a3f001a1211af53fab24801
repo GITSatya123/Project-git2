@@ -1,0 +1,5 @@
+package com.da.map;
+
+public class PersistenceMetadata {
+
+}

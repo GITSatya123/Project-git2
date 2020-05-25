@@ -1,0 +1,43 @@
+package com.cbs4.impl;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import org.hibernate.engine.jdbc.connections.spi.ConnectionProvider;
+
+@SuppressWarnings("serial")
+public class JdbcDriverManagerConectionProviderImpl implements ConnectionProvider {
+
+	@Override
+	public void closeConnection(Connection con) throws SQLException {
+		if(con !=null) {
+			con.close();
+		}
+		
+	}
+
+	@Override
+	public Connection getConnection() throws SQLException {
+		return con;
+	}
+
+	@Override
+	public boolean supportsAggressiveRelease() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean isUnwrappableAs(Class arg0) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public <T> T unwrap(Class<T> arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+}

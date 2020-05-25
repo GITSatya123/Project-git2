@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 18 Feb, 2020 12:57:41 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.ht.entities.Address" table="ADDRESS">
+        <id name="address_no" type="int">
+            <column name="addressno" />
+            <generator class="assigned" />
+        </id>
+        <property name="addressline_1" type="java.lang.String">
+            <column name="addressline1" />
+        </property>
+        <property name="addressline_2" type="java.lang.String">
+            <column name="addressline2" />
+        </property>
+        <property name="city" type="java.lang.String">
+            <column name="city" />
+        </property>
+        <property name="state" type="java.lang.String">
+            <column name="state" />
+        </property>
+        <property name="zip" type="int">
+            <column name="zip" />
+        </property>
+        <property name="country" type="java.lang.String">
+            <column name="country" />
+        </property>
+        <property name="citycode" type="int">
+        	<column name="citycode"/>
+        </property>
+    </class>
+</hibernate-mapping>

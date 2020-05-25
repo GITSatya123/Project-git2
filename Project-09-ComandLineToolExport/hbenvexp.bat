@@ -1,0 +1,2 @@
+set HIB_HOME=E:\Hibernate\Project-9-ComandLineToolExport
+set HIB_LIB=%HIB_HOME%\lib\antlr-2.7.7.jar;%HIB_HOME%\lib\dom4j-1.6.1.jar;%HIB_HOME%\lib\hibernate-commons-annotations-4.0.5.Final.jar;%HIB_HOME%\lib\hibernate-core-4.3.11.Final.jar;%HIB_HOME%\lib\hibernate-jpa-2.1-api-1.0.0.Final.jar;%HIB_HOME%\lib\jandex-1.1.0.Final.jar;%HIB_HOME%\lib\javassist-3.18.1-GA.jar;%HIB_HOME%\lib\jboss-logging-3.1.3.GA.jar;%HIB_HOME%\lib\jboss-logging-annotations-1.2.0.Beta1.jar;%HIB_HOME%\lib\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;%HIB_HOME%\lib\mysql-connector-java-8.0.19.jar

@@ -1,0 +1,19 @@
+<!-- <?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+Generated 12 Mar, 2020 12:21:02 AM by Hibernate Tools 3.5.0.Final
+<hibernate-mapping package="com.cpk.entities">
+    <class name="Patient" table="PATIENT">
+    <composite-id name="pk">
+    <key-property name="uniqueIdentificationNo" column="unique_Identification_No"/>
+    <key-property name="mobileNo" column="mobile_No"/>
+    </composite-id>
+        
+      <property name="patientName" column="patient_name"/>
+        <property name="age"/>
+        <property name="gender" />
+        <property name="emailAddress" column="email_Address"/>
+            
+    </class>
+</hibernate-mapping>
+ -->

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 1 Feb, 2020 1:15:06 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.tsf.entities.Customer" table="CUSTOMER">
+        <id name="customerno" >
+            <column name="CUSTOMER_NO" />
+            
+        </id>
+        <property name="customername" >
+            <column name="CUSTOMER_NAME" />
+        </property>
+        <property name="addressline1"/>
+          
+        <property name="city"/>            
+
+        <property name="zip"/>
+        <property name="country"/>
+    </class>
+</hibernate-mapping>

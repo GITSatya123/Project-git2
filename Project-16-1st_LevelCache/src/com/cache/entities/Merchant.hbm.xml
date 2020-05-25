@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 29 Feb, 2020 10:33:40 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.cache.entities.Merchant" table="merchant">
+        <id name="merchantNo" type="java.lang.String">
+            <column name="merchant_no" />
+            <generator class="assigned" />
+        </id>
+        <property name="merchantName" type="java.lang.String">
+            <column name="merchant_Name" />
+        </property>
+        <property name="bussinessType" type="java.lang.String">
+            <column name="bussiness_Type" />
+        </property>
+        
+        <property name="city"/>
+        
+        </class>
+</hibernate-mapping>

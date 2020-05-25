@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 4 Mar, 2020 11:35:23 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping package="com.idg.entities">
+    <class name="UserFeedback" table="userfeedback">
+        <id name="feedbackNo" type="int">
+            <column name="feedback_no" />
+            
+            <generator class="guid"/> 
+        </id>
+        <property name="description"/>
+        <property name="feedbackDate">
+            <column name="feedback_date"/>
+        </property>
+        <property name="userName">
+            <column name="user_name"/>
+        </property>
+    </class>
+</hibernate-mapping>

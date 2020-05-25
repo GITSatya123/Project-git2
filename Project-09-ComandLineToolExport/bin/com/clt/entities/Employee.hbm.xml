@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 18 Feb, 2020 5:41:01 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.clt.entities.Employee" table="EMPLOYEE">
+        <id name="empno" type="int">
+            <column name="emp_no" />
+            <generator class="assigned" />
+        </id>
+        <property name="empName" type="java.lang.String">
+            <column name="emp_name" />
+        </property>
+        <property name="gender" type="java.lang.String">
+            <column name="gender" />
+        </property>
+        <property name="age" type="int">
+            <column name="age" />
+        </property>
+    </class>
+</hibernate-mapping>

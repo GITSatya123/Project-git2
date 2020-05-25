@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 9 Feb, 2020 12:22:35 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.bs5.entities.Address" table="ADDRESS">
+        <id name="address_no">
+            <column name="addressno"/>
+        </id>
+        <property name="addressline_1">
+            <column name="addressline1"/>			
+        </property>
+        <property name="addressline_2" >
+            <column name="addressline2" />
+        </property>
+        <property name="city"/>
+        <property name="state"/>
+        <property name="zip"/>
+        
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,5 @@
+package com.cbs4.impl;
+
+public class JdbcDriverManagerConectionProviderImpl {
+
+}

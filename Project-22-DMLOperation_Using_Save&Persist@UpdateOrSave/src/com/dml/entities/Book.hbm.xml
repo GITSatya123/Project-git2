@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 10 Mar, 2020 10:28:28 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping package="com.dml.entities">
+<class name="Book" table="book">
+<id name="bookNo"  >
+<column name="book_no"/>
+<generator class="increment"/>
+</id>
+<property name="authorName">
+<column name="author_name"/>
+</property>
+
+<property name="publisher"/>
+<property name="publishedDate">
+<column name="published_date"/>
+</property>
+<property name="price"/>
+</class>
+    
+</hibernate-mapping>

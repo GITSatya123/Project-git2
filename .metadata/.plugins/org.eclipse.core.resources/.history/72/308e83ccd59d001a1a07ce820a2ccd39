@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 20 Feb, 2020 10:04:24 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+	<class name="com.gvl.entities.user" table="userInfo">
+		<id name=userId type="int">
+			<column name="user_Id"/>
+		</id>
+		<property name="userName" >
+			<column name="user_Name"/>
+		</property>
+		
+		<property name="gender" />
+		<property name="age" />
+		p		
+	
+	</class>
+
+</hibernate-mapping>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hibernate-mapping>
+    <class name="com.gvl.entities.User" table="USER" >
+        <id name="userid" type="int">
+            <column name="user_id" />
+            <generator class="assigned" />
+        </id>
+        <property name="userName" type="java.lang.String">
+            <column name="user_Name" />
+        </property>
+        <property name="gender" type="java.lang.String"/>
+            
+        <property name="age" type="int"/>
+          
+        <property name="mobileno" type="java.lang.String"/>
+       
+        <property name="emailaddress" type="java.lang.String">
+            <column name="email_address"/>
+        </property>
+    </class>
+</hibernate-mapping>

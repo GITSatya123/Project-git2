@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Project-1-ProblemWithRelationalDatabase&apos; to &apos;ProblemWithRelationalDatabase&apos;" description="Rename resource &apos;Project-1-ProblemWithRelationalDatabase&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Project-1-ProblemWithRelationalDatabase" name="ProblemWithRelationalDatabase" stamp="1581621226163" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;ClassLoader&apos;" deleteContents="true" description="Delete resource &apos;ClassLoader&apos;" element1="/ClassLoader" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1581621233875"/>
+</session>
